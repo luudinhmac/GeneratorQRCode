@@ -1,2 +1,2 @@
 # GeneratorQRCode
-Generate code from personal information
+Generate code from personal information using python
