@@ -11,6 +11,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 RUN pip install gunicorn
 # Copy the rest of the application files to the container
+COPY app/app.py .
 COPY . .
 
 # Set the environment variable for Flask
